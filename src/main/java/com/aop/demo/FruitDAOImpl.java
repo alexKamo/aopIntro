@@ -1,4 +1,4 @@
-package appDao;
+package com.aop.demo;
 
 import org.springframework.stereotype.Repository;
 

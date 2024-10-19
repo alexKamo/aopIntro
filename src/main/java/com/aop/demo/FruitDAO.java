@@ -1,4 +1,4 @@
-package appDao;
+package com.aop.demo;
 
 
 public interface FruitDAO {

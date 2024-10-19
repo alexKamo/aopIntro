@@ -1,5 +1,6 @@
 package com.aop.demo;
 
+import com.aop.demo.appDao.FruitDAO;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

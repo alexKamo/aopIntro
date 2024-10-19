@@ -1,9 +1,10 @@
-package com.aop.demo;
+package com.aop.demo.appDao;
 
+import com.aop.demo.appDao.FruitDAO;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class FruitDAOImpl implements FruitDAO{
+public class FruitDAOImpl implements FruitDAO {
     @Override
     public void addFruit() {
         System.out.println("Hi from addFruit method");

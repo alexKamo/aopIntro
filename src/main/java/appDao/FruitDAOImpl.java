@@ -1,5 +1,8 @@
 package appDao;
 
+import org.springframework.stereotype.Repository;
+
+@Repository
 public class FruitDAOImpl implements FruitDAO{
     @Override
     public void addFruit() {
